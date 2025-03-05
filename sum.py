@@ -1,7 +1,6 @@
-# Simple addition program
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+import sys
 
-sum_result = num1 + num2
+num1 = float(sys.argv[1])
+num2 = float(sys.argv[2])
 
-print("The sum is:", sum_result)
+print("Sum:", num1 + num2)
